@@ -7,7 +7,7 @@ hexo.extend.tag.register('mastodon', function(args, content){
   var postId = "";
   var returnStr = "";
 
-  if(args[0] && args[0].match(/https\:\/\/[a-zA-Z0-9\-.]+\/@[a-zA-Z0-9_]+\/[0-9]+)/){
+  if(args[0] && args[0].match(/https\:\/\/[a-zA-Z0-9\-.]+\/@[a-zA-Z0-9_]+\/[0-9]+)/)){
     var urlVariable = args[0].match(/https\:\/\/([a-zA-Z0-9\-.]+)\/@([a-zA-Z0-9_]+)\/([0-9]+)/);
     instanceAddress = urlVariable[0];
     userId = urlVariable[1];
