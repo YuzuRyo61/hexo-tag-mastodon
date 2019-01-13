@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-mastodon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add the mastodon embed tag",
   "main": "htm-plugin.js",
   "scripts": {
