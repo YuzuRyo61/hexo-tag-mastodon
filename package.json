@@ -1,0 +1,34 @@
+{
+  "name": "hexo-tag-mastodon",
+  "version": "1.0.0",
+  "description": "Add the mastodon embed tag",
+  "main": "htm-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuzuRyo61/hexo-tag-mastodon.git"
+  },
+  "maintainers": [
+    {
+      "name": "YuzuRyo61"
+    }
+  ],
+  "keywords": [
+    "Mastodon",
+    "tag",
+    "hexo",
+    "embed",
+    "blog"
+  ],
+  "author": {
+    "name": "YuzuRyo61",
+    "url": "https://yuzulia.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuzuRyo61/hexo-tag-mastodon/issues"
+  },
+  "homepage": "https://github.com/YuzuRyo61/hexo-tag-mastodon#readme"
+}
