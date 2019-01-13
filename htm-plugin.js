@@ -9,9 +9,9 @@ hexo.extend.tag.register('mastodon', function(args, content){
 
   if(args[0] && args[0].match(/https\:\/\/[a-zA-Z0-9\-.]+\/@[a-zA-Z0-9_]+\/[0-9]+/)){
     var urlVariable = args[0].match(/https\:\/\/([a-zA-Z0-9\-.]+)\/@([a-zA-Z0-9_]+)\/([0-9]+)/);
-    instanceAddress = urlVariable[0];
-    userId = urlVariable[1];
-    postId = urlVariable[2];
+    instanceAddress = urlVariable[1];
+    userId = urlVariable[2];
+    postId = urlVariable[3];
   }
 
   if(instanceAddress != "" && userId != "" && postId != ""){
